@@ -19,13 +19,13 @@ CATEGORY_COLORS = {
 }
 
 CATEGORY_LABEL_KO = {
-    "PREMIUM":            "고급 외식",
-    "OFFICE_LUNCH":       "오피스 점심",
-    "NIGHTLIFE_DINING":   "유흥 결합",
+    "PREMIUM":            "럭셔리 다이닝",
+    "OFFICE_LUNCH":       "오피스",
+    "NIGHTLIFE_DINING":   "유흥 트랜디",
     "FAMILY_RESIDENTIAL": "대규모 주거",
     "TOURIST_DINING":     "관광지",
-    "CAMPUS_CASUAL":      "대학가 가성비",
-    "GENERAL":            "일반 (Fallback)",
+    "CAMPUS_CASUAL":      "대학가",
+    "GENERAL":            "일반 상권",
 }
 
 
