@@ -3,7 +3,7 @@
 캐치테이블 가맹 매장 관점의 **레스토랑 중심 상권 분류** 프로젝트.
 전국 읍/면/동 **3,562개**를 6개 상권 유형 + `GENERAL` (Fallback) 으로 자동 분류한다.
 
-> 🗺 **[Live Map (GitHub Pages)](https://<GH_USER>.github.io/<REPO>/area_map_polygon.html)** — Rank1/2/3 전환·유형 필터링이 가능한 인터랙티브 전국 지도
+> 🗺 **[Live Map (GitHub Pages)]([https://<GH_USER>.github.io/<REPO>/area_map_polygon.html](https://wad-sungjunjung.github.io/Retail_Area_Clustering/area_map_polygon.html))** — Rank1/2/3 전환·유형 필터링이 가능한 인터랙티브 전국 지도
 >
 > *(아래 Pages 배포 안내에 따라 퍼블리시 후 URL 두 토큰을 실제 값으로 교체)*
 
