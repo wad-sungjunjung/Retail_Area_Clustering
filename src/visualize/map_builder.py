@@ -16,7 +16,6 @@ CATEGORY_COLORS = {
     "FAMILY_RESIDENTIAL": "#43a047",
     "TOURIST_DINING":     "#fb8c00",
     "CAMPUS_CASUAL":      "#00897b",
-    "MARKET_STREET":      "#6d4c41",
     "GENERAL":            "#9e9e9e",
 }
 
@@ -28,7 +27,6 @@ CATEGORY_LABEL_KO = {
     "FAMILY_RESIDENTIAL": "대규모 주거",
     "TOURIST_DINING":     "관광지",
     "CAMPUS_CASUAL":      "대학가 가성비",
-    "MARKET_STREET":      "전통시장·노포",
     "GENERAL":            "일반 (Fallback)",
 }
 
