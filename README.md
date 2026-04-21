@@ -14,12 +14,12 @@
 
 | 코드 | 상권명 | 예시 |
 |------|--------|------|
-| `PREMIUM` | 고급 외식 상권 | 청담, 한남, 도산, 압구정, 성수 |
-| `OFFICE` | 오피스 점심 상권 | 역삼, 을지로, 판교 |
-| `NIGHTLIFE` | 유흥 결합 상권 | 홍대, 강남, 종로3가 |
+| `PREMIUM` | 럭셔리 다이닝 상권 | 청담, 한남, 도산, 압구정, 성수 |
+| `OFFICE` | 오피스 상권 | 역삼, 을지로, 판교 |
+| `NIGHTLIFE` | 유흥 트랜디 상권 | 홍대, 강남, 종로3가 |
 | `FAMILY` | 대규모 주거 상권 | 목동, 반포, 백현 |
 | `TOURIST` | 관광지 상권 | 명동, 인사동, 북촌, 광장시장 |
-| `CAMPUS` | 대학가 가성비 상권 | 신촌, 건대, 안암, 흑석 |
+| `CAMPUS` | 대학가 상권 | 신촌, 건대, 안암, 흑석 |
 | `GENERAL` | 일반 지역 (Fallback) | 기타 동 |
 
 > 버전 이력: v0.1 9종 → v0.3 `DATE_TRENDY`·`MARKET_STREET` 제거 → v0.4 force-promote·threshold 통합. 상세는 [docs/METHODOLOGY.md](./docs/METHODOLOGY.md) 참조.

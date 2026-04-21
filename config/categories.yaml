@@ -1,16 +1,16 @@
 categories:
   - code: PREMIUM
-    name: 고급 외식 상권
+    name: 럭셔리 다이닝 상권
     description: 파인다이닝·오마카세·프리미엄 한/일/양식·고급 바 밀집
     examples: [청담, 한남, 도산, 압구정, 성수]
 
   - code: OFFICE_LUNCH
-    name: 오피스 점심 상권
+    name: 오피스 상권
     description: 직장인 점심 수요, 회전율 높은 캐주얼
     examples: [여의도, 광화문, 판교]
 
   - code: NIGHTLIFE_DINING
-    name: 유흥 결합 상권
+    name: 유흥 트랜디 상권
     description: 저녁+술자리, 야간 외식 중심
     examples: [홍대, 강남 유흥가, 종로3가, 이태원]
 
@@ -25,7 +25,7 @@ categories:
     examples: [명동, 인사동, 북촌, 중문, 광장시장, 남대문, 서문시장]
 
   - code: CAMPUS_CASUAL
-    name: 대학가 가성비 상권
+    name: 대학가 상권
     description: 학생 중심, 저가·중간가 캐주얼
     examples: [신촌, 건대, 안암, 흑석]
 

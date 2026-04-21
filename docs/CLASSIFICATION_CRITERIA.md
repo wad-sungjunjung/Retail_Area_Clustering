@@ -10,12 +10,12 @@
 
 | 코드 | 이름 | 성격 | 대표 지역 |
 |------|------|------|-----------|
-| `PREMIUM` | 고급 외식 상권 | 파인다이닝·오마카세·한우·프리미엄 일식 | 청담, 한남, 압구정, 신사, 성수 |
-| `OFFICE_LUNCH` | 오피스 점심 상권 | 직장인 점심 수요, 회전율 | 여의도, 광화문, 판교 |
-| `NIGHTLIFE_DINING` | 유흥 결합 상권 | 저녁·야간, 술자리 | 홍대, 강남 유흥가, 종로3가 |
+| `PREMIUM` | 럭셔리 다이닝 상권 | 파인다이닝·오마카세·한우·프리미엄 일식 | 청담, 한남, 압구정, 신사, 성수 |
+| `OFFICE_LUNCH` | 오피스 상권 | 직장인 점심 수요, 회전율 | 여의도, 광화문, 판교 |
+| `NIGHTLIFE_DINING` | 유흥 트랜디 상권 | 저녁·야간, 술자리 | 홍대, 강남 유흥가, 종로3가 |
 | `FAMILY_RESIDENTIAL` | 대규모 주거 상권 | 아파트 밀집, 가족 외식 | 목동, 반포, 판교, 송도 |
 | `TOURIST_DINING` | 관광지 상권 | 관광객·숙박, 유명 전통시장 포함 | 명동, 북촌, 중문, 해운대, 광장시장 |
-| `CAMPUS_CASUAL` | 대학가 가성비 상권 | 학생, 저가·캐주얼 | 신촌, 건대, 성대, 관악 |
+| `CAMPUS_CASUAL` | 대학가 상권 | 학생, 저가·캐주얼 | 신촌, 건대, 성대, 관악 |
 | `GENERAL` | 일반 상권 | 특정 성격 뚜렷하지 않음 (fallback) | 지방 소도시, 동네 시장 |
 
 ---
@@ -104,7 +104,7 @@
 
 ## 5. 유형별 판별 기준
 
-### 5-1. PREMIUM (고급 외식 상권)
+### 5-1. PREMIUM (럭셔리 다이닝 상권)
 
 **Rule 가중치** (합계 = 합으로 정규화)
 
@@ -127,7 +127,7 @@
 **Force 조건** (GENERAL → PREMIUM 승격):
 - `premium_industry_ratio ≥ 0.12` **AND** `foreign_restaurant_ratio ≥ 0.15`
 
-### 5-2. OFFICE_LUNCH (오피스 점심 상권)
+### 5-2. OFFICE_LUNCH (오피스 상권)
 
 | 가중치 | Feature | 해석 |
 |:------:|---------|------|
@@ -146,7 +146,7 @@
 **Force 조건** (GENERAL → OFFICE 승격):
 - `bank_share ≥ 0.9` **AND** `subway_station_share ≥ 0.8` **AND** `business_density ≥ 0.9`
 
-### 5-3. NIGHTLIFE_DINING (유흥 결합 상권)
+### 5-3. NIGHTLIFE_DINING (유흥 트랜디 상권)
 
 | 가중치 | Feature | 해석 |
 |:------:|---------|------|
@@ -206,7 +206,7 @@
 **Force 조건** (GENERAL → TOURIST 승격):
 - `tourist_spot_share ≥ 0.55` **AND** `accommodation_share ≥ 0.70`
 
-### 5-6. CAMPUS_CASUAL (대학가 가성비 상권)
+### 5-6. CAMPUS_CASUAL (대학가 상권)
 
 | 가중치 | Feature | 해석 |
 |:------:|---------|------|
