@@ -1,0 +1,58 @@
+# ---- Secrets ----
+.env
+.env.local
+*.pem
+*.key
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ---- OS / IDE ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ---- Claude Code ----
+.claude/
+
+# ---- Data (용량·라이선스 문제로 git 미포함) ----
+# 원천 대용량 파일
+소상공인시장진흥공단_상가(상권)정보_*/
+data/raw/boundaries/
+data/raw/**/*.geojson
+data/raw/**/*.shp
+data/raw/**/*.zip
+
+# 중간 산출물 (재생성 가능)
+data/interim/
+*.jsonl
+*_log.txt
+
+# 최종 결과물 중 대용량
+data/processed/area_map*.html
+data/processed/area_features.parquet
+
+# 단, 최종 분류 결과는 데모용으로 커밋 허용
+!data/processed/area_commercial_type.csv
+!data/processed/area_commercial_type.parquet
+
+# docs/ 하위는 GitHub Pages 배포용이므로 HTML 허용
+!docs/*.html
+
+# ---- Logs ----
+*.log

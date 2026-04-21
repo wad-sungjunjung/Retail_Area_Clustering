@@ -1,0 +1,114 @@
+# 유형별 feature 가중합. 반복 2 — DATE 쏠림 완화 + 유형별 차별 강화.
+
+PREMIUM:
+  premium_industry_ratio: 0.40
+  department_store_count_rank: 0.35   # 대폭 강화 — 청담·압구정·신사만 맥락
+  accommodation_share: 0.10
+  franchise_ratio_inverse: 0.10
+  culture_facility_share: 0.05
+  low_price_industry_ratio: -0.35
+  korean_traditional_ratio: -0.20
+  franchise_ratio: -0.15
+  pocha_count_rank: -0.15
+  university_count_rank: -0.10
+
+DATE_TRENDY:
+  cafe_ratio: 0.45                    # 주 신호로 승격
+  brunch_count_rank: 0.15             # 축소
+  dessert_count_rank: 0.10            # 축소
+  culture_facility_share: 0.15
+  independent_small_ratio: 0.10
+  premium_industry_ratio: -0.25       # 청담 등 제외
+  premium_density: -0.10
+  tourist_spot_share: -0.20
+  accommodation_share: -0.15
+  bank_share: -0.25
+  academy_share: -0.20
+  university_count_rank: -0.15
+  low_price_industry_ratio: -0.15
+  apartment_count_rank: -0.25
+  pocha_count_rank: -0.15             # 포차 많으면 NIGHTLIFE
+  club_count_rank: -0.15
+
+OFFICE_LUNCH:
+  bank_share: 0.40                    # 강화
+  subway_station_share: 0.20
+  business_density: 0.15
+  premium_industry_ratio: -0.25
+  tourist_spot_share: -0.30
+  university_count_rank: -0.40
+  apartment_count_rank: -0.25
+  korean_traditional_ratio: -0.20
+  pocha_count_rank: -0.15
+  club_count_rank: -0.15
+  brunch_count_rank: -0.10
+  cafe_ratio: -0.15                   # 카페 비중 높으면 DATE
+
+NIGHTLIFE_DINING:
+  club_count_rank: 0.40               # 강화
+  bar_count_rank: 0.25
+  pocha_count_rank: 0.20
+  alcohol_industry_ratio: 0.15
+  night_business_ratio: 0.10
+  entertainment_poi_density: 0.10
+  bank_share: -0.25
+  academy_share: -0.25
+  apartment_count_rank: -0.30
+  hospital_share: -0.15
+  school_share: -0.15
+  cafe_ratio: -0.15
+
+FAMILY_RESIDENTIAL:
+  apartment_count_rank: 0.45
+  academy_share: 0.20
+  convenience_store_share: 0.15
+  hospital_share: 0.15
+  school_share: 0.10
+  entertainment_poi_density: -0.20
+  premium_industry_ratio: -0.15
+  tourist_spot_share: -0.30
+  bank_share: -0.20
+  university_count_rank: -0.40         # 더 강화: 송도 오분류 방지
+  bar_count_rank: -0.15
+  club_count_rank: -0.15
+  cafe_ratio: -0.15
+  brunch_count_rank: -0.10
+
+TOURIST_DINING:
+  tourist_spot_share: 0.60             # 강화
+  accommodation_share: 0.30
+  foreign_restaurant_ratio: 0.10
+  culture_facility_share: 0.10
+  apartment_count_rank: -0.35
+  academy_share: -0.25
+  university_count_rank: -0.20
+  convenience_store_share: -0.15
+  korean_traditional_ratio: -0.10
+  cafe_ratio: -0.15                    # 카페 중심이면 DATE
+
+CAMPUS_CASUAL:
+  university_count_rank: 0.65          # 극강화
+  low_price_industry_ratio: 0.20
+  franchise_ratio: 0.15
+  low_price_density: 0.10
+  premium_industry_ratio: -0.20
+  apartment_count_rank: -0.25
+  bank_share: -0.10
+  accommodation_share: -0.10
+  tourist_spot_share: -0.15
+  cafe_ratio: -0.15                    # 카페 비중 높으면 DATE (혜화·신촌 주의)
+
+MARKET_STREET:
+  korean_traditional_ratio: 0.35
+  franchise_ratio_inverse: 0.25
+  small_store_density: 0.15
+  korean_density: 0.15
+  pocha_count_rank: 0.15               # 포차 많으면 전통시장·노포
+  bank_share: -0.15
+  apartment_count_rank: -0.25
+  university_count_rank: -0.20
+  accommodation_share: -0.15
+  tourist_spot_share: -0.15
+  brunch_count_rank: -0.20
+  dessert_count_rank: -0.15
+  cafe_ratio: -0.20

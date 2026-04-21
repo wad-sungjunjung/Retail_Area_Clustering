@@ -1,0 +1,75 @@
+PREMIUM:
+  premium_industry_ratio: 0.267
+  department_store_count_rank: 0.285
+  accommodation_share: 0.014
+  franchise_ratio_inverse: 0.16
+  culture_facility_share: -0.054
+  low_price_industry_ratio: -0.396
+  korean_traditional_ratio: -0.46
+  franchise_ratio: -0.298
+  pocha_count_rank: 0.158
+  university_count_rank: -0.39
+OFFICE_LUNCH:
+  bank_share: 0.379
+  subway_station_share: 0.105
+  business_density: 0.216
+  premium_industry_ratio: -0.293
+  tourist_spot_share: -0.252
+  university_count_rank: -0.5
+  apartment_count_rank: 0.063
+  korean_traditional_ratio: -0.075
+  pocha_count_rank: -0.25
+  club_count_rank: 0.059
+  brunch_count_rank: 0.414
+  cafe_ratio: 0.005
+NIGHTLIFE_DINING:
+  club_count_rank: 0.298
+  bar_count_rank: 0.163
+  pocha_count_rank: 0.302
+  alcohol_industry_ratio: 0.191
+  night_business_ratio: 0.052
+  entertainment_poi_density: 0.204
+  bank_share: -0.133
+  academy_share: -0.316
+  apartment_count_rank: -0.316
+  hospital_share: 0.152
+  school_share: 0.072
+  cafe_ratio: -0.239
+FAMILY_RESIDENTIAL:
+  apartment_count_rank: 0.337
+  academy_share: 0.483
+  convenience_store_share: -0.077
+  hospital_share: 0.261
+  school_share: 0.048
+  entertainment_poi_density: -0.309
+  premium_industry_ratio: -0.398
+  tourist_spot_share: -0.453
+  bank_share: -0.315
+  university_count_rank: -0.246
+  bar_count_rank: 0.001
+  club_count_rank: -0.086
+  cafe_ratio: -0.0
+  brunch_count_rank: 0.131
+TOURIST_DINING:
+  tourist_spot_share: 0.397
+  accommodation_share: 0.5
+  foreign_restaurant_ratio: -0.5
+  culture_facility_share: -0.057
+  apartment_count_rank: -0.26
+  academy_share: 0.066
+  university_count_rank: 0.038
+  convenience_store_share: -0.009
+  korean_traditional_ratio: -0.32
+  cafe_ratio: -0.032
+CAMPUS_CASUAL:
+  university_count_rank: 0.5
+  low_price_industry_ratio: 0.059
+  franchise_ratio: 0.11
+  low_price_density: 0.192
+  premium_industry_ratio: -0.081
+  apartment_count_rank: -0.42
+  bank_share: -0.113
+  accommodation_share: 0.061
+  tourist_spot_share: -0.206
+  cafe_ratio: -0.02
+  university_2km_rank: 0.103

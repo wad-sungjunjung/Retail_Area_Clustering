@@ -1,0 +1,30 @@
+paths:
+  data_raw: data/raw
+  data_interim: data/interim
+  data_processed: data/processed
+  feature_store: data/processed/area_features.parquet
+  classification_output: data/processed/area_commercial_type.parquet
+  sbiz_csv_dir: 소상공인시장진흥공단_상가(상권)정보_20251231
+
+collection:
+  kakao:
+    radius_m: 1000
+    categories: [MT1, CS2, SW8, BK9, HP8, PM9, CE7, FD6, AC5, AT4, AD5, CT1, AG2, SC4]
+    rate_limit_per_sec: 8
+  tour_api:
+    area_codes: all
+  cache_ttl_days: 30
+
+scoring:
+  alpha: 1.0                # Rule only (hill-climb 최적화가 rule 기준이므로)
+  threshold_primary: 0.60               # rank1_score < 0.60 이면 GENERAL
+  threshold_secondary: 0.60             # rank2/3도 동일 기준 적용
+  min_margin: 0.0                       # margin 조건 비활성 (초접전은 복합상권으로 유지)
+  ml:
+    method: gmm          # gmm | hdbscan | kmeans
+    n_components: 8
+    random_state: 42
+
+snowflake:
+  target_table: area_commercial_type
+  model_version: v0.1.0
