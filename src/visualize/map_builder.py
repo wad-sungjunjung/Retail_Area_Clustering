@@ -10,7 +10,6 @@ import pandas as pd
 
 CATEGORY_COLORS = {
     "PREMIUM":            "#d4af37",
-    "DATE_TRENDY":        "#e91e63",
     "OFFICE_LUNCH":       "#1976d2",
     "NIGHTLIFE_DINING":   "#7b1fa2",
     "FAMILY_RESIDENTIAL": "#43a047",
@@ -21,7 +20,6 @@ CATEGORY_COLORS = {
 
 CATEGORY_LABEL_KO = {
     "PREMIUM":            "고급 외식",
-    "DATE_TRENDY":        "데이트·트렌디",
     "OFFICE_LUNCH":       "오피스 점심",
     "NIGHTLIFE_DINING":   "유흥 결합",
     "FAMILY_RESIDENTIAL": "대규모 주거",
